@@ -17,14 +17,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{81EE444F
 		utils.py = utils.py
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AI Models", "AI Models", "{C07E412E-62A6-464D-8966-49F67A5703A5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AIMModels", "AIMModels", "{C07E412E-62A6-464D-8966-49F67A5703A5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workers", "Workers", "{9B7BDB2F-82DA-4F9E-B6B7-E650998ED176}"
 	ProjectSection(SolutionItems) = preProject
 		workers.py = workers.py
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AI Models Manager", "AI Models Manager", "{8ADB3CA9-704D-4827-A832-92C64441FF5C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AIMModels Manager", "AIMModels Manager", "{8ADB3CA9-704D-4827-A832-92C64441FF5C}"
 	ProjectSection(SolutionItems) = preProject
 		AIModels.py = AIModels.py
 	EndProjectSection
@@ -47,6 +47,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers"
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{52282F88-FB62-432F-9D50-E004D66FEC3F}"
+	ProjectSection(SolutionItems) = preProject
+		Canvas.py = Canvas.py
+		main_window.py = main_window.py
+		side_panel.py = side_panel.py
+		tool_bar.py = tool_bar.py
+		__init__.py = __init__.py
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dialogs", "dialogs", "{9C7002FA-CFD2-456C-9E3E-F93E060A232E}"
 	ProjectSection(SolutionItems) = preProject

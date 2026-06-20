@@ -6,48 +6,99 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Main.py", "Main.py.pyproj", "{C8D5F246-05F1-4359-BEF5-03FE098599E6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Outputs", "Outputs", "{EA5DE5B6-0215-42EC-8F85-A4E97933A709}"
+	ProjectSection(SolutionItems) = preProject
+		Output.py = Output.py
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{1105616F-B3ED-4637-81BB-68FE3D88D251}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{81EE444F-2A6D-4B39-97B2-222EAE7D84E0}"
+	ProjectSection(SolutionItems) = preProject
+		utils.py = utils.py
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AI Models", "AI Models", "{C07E412E-62A6-464D-8966-49F67A5703A5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workers", "Workers", "{9B7BDB2F-82DA-4F9E-B6B7-E650998ED176}"
+	ProjectSection(SolutionItems) = preProject
+		workers.py = workers.py
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AI Models Manager", "AI Models Manager", "{8ADB3CA9-704D-4827-A832-92C64441FF5C}"
+	ProjectSection(SolutionItems) = preProject
+		AIModels.py = AIModels.py
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Processors", "Processors", "{6F250C43-FE5D-43B3-A601-0998CCEAB56A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "State", "State", "{34CE7ADA-4B3F-4959-B375-CC0BC01CD438}"
+	ProjectSection(SolutionItems) = preProject
+		ImageState.py = ImageState.py
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{812583D7-8A0E-4DC7-A6C5-708787F42892}"
+	ProjectSection(SolutionItems) = preProject
+		services.py = services.py
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{F10520DB-405B-4AB2-9FBF-9AFAC08A94B8}"
+	ProjectSection(SolutionItems) = preProject
+		Controllers.py = Controllers.py
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{52282F88-FB62-432F-9D50-E004D66FEC3F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dialogs", "dialogs", "{9C7002FA-CFD2-456C-9E3E-F93E060A232E}"
+	ProjectSection(SolutionItems) = preProject
+		dialogs.py = dialogs.py
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "widgets", "widgets", "{12A5CEA3-0DD3-40CA-8CBC-16EA21364C48}"
+	ProjectSection(SolutionItems) = preProject
+		ImageCanvas.py = ImageCanvas.py
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Classic", "Classic", "{281FAA64-B411-4D03-8DCC-D84CE8E987A8}"
+	ProjectSection(SolutionItems) = preProject
+		Classic.py = Classic.py
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AI", "AI", "{3DEB9559-2F3E-4FD0-919D-5FEA5FCC745D}"
+	ProjectSection(SolutionItems) = preProject
+		Ai.py = Ai.py
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Yolov8", "Yolov8", "{ACCB8D6C-2189-49CD-A35F-D17EA3A2ED95}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "themes", "themes", "{48F9D672-5835-43DD-9D60-C7D973D2D7F3}"
+	ProjectSection(SolutionItems) = preProject
+		themes.py = themes.py
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icons", "icons", "{3325AF4B-1680-4BC1-9068-95C42E69507B}"
+	ProjectSection(SolutionItems) = preProject
+		icons.py = icons.py
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{756484C2-417F-4F28-B3B6-D053AF7B0EF2}"
+	ProjectSection(SolutionItems) = preProject
+		images.py = images.py
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{3C98C798-FADE-40EC-B876-32BEB74DAD21}"
+	ProjectSection(SolutionItems) = preProject
+		Fonts.py = Fonts.py
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "temp", "temp", "{18835193-13A8-4C61-B804-FD4EEB1E1419}"
+	ProjectSection(SolutionItems) = preProject
+		Temp.py = Temp.py
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "exports", "exports", "{B58E293B-FE10-4424-8570-ADA06C95A4B3}"
+	ProjectSection(SolutionItems) = preProject
+		Export.py = Export.py
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sam", "Sam", "{039E6DFD-94F1-452C-89A3-3ADEE7BFFE2E}"
 EndProject

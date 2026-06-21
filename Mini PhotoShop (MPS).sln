@@ -43,7 +43,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{81
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{F10520DB-405B-4AB2-9FBF-9AFAC08A94B8}"
 	ProjectSection(SolutionItems) = preProject
-		Controllers.py = Controllers.py
+		Image_controller.py = Image_controller.py
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{52282F88-FB62-432F-9D50-E004D66FEC3F}"

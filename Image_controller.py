@@ -70,7 +70,7 @@ class ImageController:
     def UpdateView(self):
         image = self.image_state.current_image
         if image is None :
-           self.main_window.ImageCanvas.ClearCanvas()
+           self.main_window.canvas.ClearCanvas()
            return
 
-        self.main_window.ImageCanvas.DisplayImage(image)
+        self.main_window.canvas.DisplayImage(image)

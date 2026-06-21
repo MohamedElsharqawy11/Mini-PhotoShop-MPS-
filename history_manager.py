@@ -12,4 +12,4 @@ class HistoryManager:
         pass
 
     def ClearHistory(self):
-        pass
+        pass     

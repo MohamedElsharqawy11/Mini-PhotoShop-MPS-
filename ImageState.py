@@ -1,18 +1,25 @@
 class ImageState:
     def __init__(self):
-        pass
+        self.original_image = None
+        self.current_image = None
+        self.image_path = None
 
     def SetInitialImage(self, cv_array, path):
-        pass
+        self.original_image = cv_array.copy()
+        self.current_image = cv_array.copy()
+        self.image_path = path
 
     def UpdateImage(self, new_cv_array):
-        pass
+        self.current_image = new_cv_array.copy()
 
     def ResetToOriginal(self):
-        pass
+        if self.original_image is not None:
+          self.current_image = self.original_image.copy()
 
     def GetCurrentImage(self):
-        pass
+        return self.current_image
 
     def ClearState(self):
-        pass
+        self.original_image = None
+        self.current_image = None
+        self.image_path = None

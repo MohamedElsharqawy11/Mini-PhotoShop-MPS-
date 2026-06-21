@@ -33,6 +33,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Processors", "Processors", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "State", "State", "{34CE7ADA-4B3F-4959-B375-CC0BC01CD438}"
 	ProjectSection(SolutionItems) = preProject
+		history_manager.py = history_manager.py
 		ImageState.py = ImageState.py
 	EndProjectSection
 EndProject
